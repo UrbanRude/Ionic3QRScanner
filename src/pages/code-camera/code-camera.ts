@@ -18,6 +18,12 @@ import { EventsManagerProvider } from '../../providers/events-manager/events-man
 })
 export class CodeCameraPage {
 
+  /**
+   *  COMANDOS PARA INSTALAR LOS PLUGINS
+   *  ionic cordova plugin add cordova-plugin-qrscanner
+   *  npm install --save @ionic-native/qr-scanner
+   */
+
   constructor(public navCtrl: NavController, public navParams: NavParams,private qrScanner: QRScanner, private events_manager: EventsManagerProvider) {
   }
 
